@@ -25,8 +25,8 @@ You can use the toPdf() function to convert any HTML element into a PDF file. Th
 toPdf(selector, filename);
 ```
 
-* selectorString: Required. A string that specifies the HTML element you want to convert. This can be any valid CSS selector, such as #myElement or .myClass.
-* filenameString: Optional. A string that specifies the name of the downloaded file.
+* selector: Required. A string that specifies the HTML element you want to convert. This can be any valid CSS selector, such as #myElement or .myClass.
+* filename: Optional. A string that specifies the name of the downloaded file.
 
 
 Here's an example of how to use the toPdf() function:
