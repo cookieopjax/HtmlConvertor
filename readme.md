@@ -5,8 +5,12 @@ This library provides an easy way to convert HTML elements into PDF or tables in
 ## Usage
 
 #### Include it as a script in your HTML
-You can include the library as a script in your HTML file, like this:
 
+```
+https://unpkg.com/html-convertor@1.0.1/htmlConvertor.js
+```
+
+You can include the library as a script in your HTML file, like this:
 ```html
 <header>
   <script src="./htmlConverter.js" type="module"></script>
