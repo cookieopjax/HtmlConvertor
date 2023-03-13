@@ -60,4 +60,5 @@ This will convert the table element with the ID myTable into an XLSX file named 
 
 ### Dependencies
 https://github.com/JackGit/table2excel.js
+
 https://github.com/eKoopmans/html2pdf.js
