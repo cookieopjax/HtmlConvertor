@@ -1,6 +1,6 @@
 {
   "name": "html-convertor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "an easy way to convert HTML elements into PDF or tables into XLSX files.",
   "main": "htmlConvertor.js",
   "scripts": {

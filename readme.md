@@ -34,13 +34,13 @@ toPdf(selector, filename);
 ```
 
 * selector: Required. A string that specifies the HTML element you want to convert. This can be any valid CSS selector, such as #myElement or .myClass.
-* filename: Optional. A string that specifies the name of the downloaded file.
+* filename: Optional. A string that specifies the name of the downloaded file, without the file extension.
 
 
 Here's an example of how to use the toPdf() function:
 
 ```javascript
-toPdf('#content', 'myFile.pdf');
+toPdf('#content', 'myFile');
 ```
 
 This will convert the HTML element with the ID content into a PDF file named myFile.pdf.
@@ -54,11 +54,11 @@ tableToExcel(selector, filename);
 ```
 
 * selector: Required. A string that specifies the table element you want to convert. This can be any valid CSS selector, such as #myTable or .myTableClass.
-* filename: Optional. A string that specifies the name of the downloaded file.
+* filename: Optional. A string that specifies the name of the downloaded file, without the file extension.
 Here's an example of how to use the tableToExcel() function:
 
 ```javascript
-tableToExcel('#myTable', 'myFile.xlsx');
+tableToExcel('#myTable', 'myFile');
 ```
 
 This will convert the table element with the ID myTable into an XLSX file named myFile.xlsx.
