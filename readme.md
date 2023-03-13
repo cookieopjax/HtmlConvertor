@@ -1,4 +1,8 @@
 # HtmlConvertor
+<p align="center">
+  <a href="https://www.npmjs.com/package/html-convertor?activeTab=readme"><img src="https://img.shields.io/npm/v/html-convertor" alt="Build Status"></a>
+  <a href="https://github.com/cookieopjax/HtmlConvertor/blob/main/LICENSE"><img src="https://img.shields.io/github/license/cookieopjax/HtmlConvertor" alt="Build Status"></a>
+</p>
 
 This library provides an easy way to convert HTML elements into PDF or tables into XLSX files. With just a few lines of code, you can transform your HTML content into a downloadable PDF or XLSX file.
 
