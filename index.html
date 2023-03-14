@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="./htmlConverter.js" type="module"></script>
+    <script src="./exceljs.min.js"></script>
+    <script src="./FileSaver.min.js"></script>
+    <script src="./html2pdf.bundle.min.js"></script>
+    <script src="./table2excel.core.js"></script>
   </head>
   <body>
-    <table id="ttc">
+    <table id="example">
       <thead>
         <tr>
           <th colspan="2">The table header</th>
@@ -37,8 +40,8 @@
     }
   </style>
   <script type="module">
-    import { toPdf, tableToExcel } from "./htmlConverter.js";
-    toPdf("#ttc", "cool");
-    tableToExcel("#ttc");
+    import { toPdf, tableToExcel } from "./htmlConvertor.js";
+    toPdf("#example", "cool");
+    tableToExcel("#example");
   </script>
 </html>
